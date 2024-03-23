@@ -29,7 +29,7 @@ USE `ukk_galeri_foto`;
 -- Struktur dari tabel `album`
 --
 
-CREATE TABLE `album` (
+CREATE TABLE `albums` (
   `albumid` int(11) NOT NULL,
   `namaalbum` varchar(255) NOT NULL,
   `deskripsi` text NOT NULL,
